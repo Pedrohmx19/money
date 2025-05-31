@@ -174,7 +174,7 @@ section {
   object-fit: contain;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
   .conteudo {
     width: auto;
@@ -234,5 +234,97 @@ section {
     width:314px;
     height:300px;
     margin-top: 3px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .conteudo {
+    width: auto;
+  }
+  
+  #logo {
+    display:none;
+  }
+
+ .titulo {
+  display:block;
+  justify-content:none; /* Centraliza horizontalmente */ 
+  padding: 30px;
+  }
+
+  h1 {
+    font-size: 28px;
+    text-align: center;
+    margin:0;
+  }
+
+ #mae {
+  padding: none;
+  display: block;
+  justify-content: none;
+  align-items: none;
+  gap: auto;
+  flex-wrap: none;
+  width: 265px;
+  height: 520px;
+  }
+
+  select, input {
+  display:block;
+  background-color: #ffffff;
+  border: 1px solid #bbbbbb;
+  border-radius:4px;
+  height:34px;
+  width:210px;
+  appearance: none;
+  padding-left:20px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  }
+
+  input {
+    margin-bottom:20px;
+  }
+
+  button {
+    width:210px;
+    height:38px;
+    font-size:18px;
+    margin-bottom:20px;
+  }
+
+  section {
+    width:210px;
+    height:200px;
+    margin-top: 3px;
+  }
+
+  .brazil {
+    width:28px;
+  }
+
+  .currency-reall {
+    font-size: 10px;
+  }
+
+  .currency-value-dolar {
+    font-size:12px;
+  }
+
+  .arrow {
+    width:20px;
+  }
+
+  .currency-real {
+    font-size: 10px;
+  }
+
+  .currency-value {
+    font-size:12px;
+  }
+
+  .imgtroca {
+    width:28px;
   }
 }
