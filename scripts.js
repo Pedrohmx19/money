@@ -41,12 +41,12 @@ function changeEuro() {
 
    if (correncySelector.value == "dolar") {
     primeiroparagraafo.innerHTML = "Dólar Americano"
-     currencyImg.src = "../img/unidos.png"
+     currencyImg.src = "../img/unidos.png";
    }
 
     if (correncySelector.value == "euro") { 
     primeiroparagraafo.innerHTML = "Euro"
-    currencyImg.src = "../img/euro.png"
+    currencyImg.src = "../img/euro.png";
    }
    convertValuer()
 }
