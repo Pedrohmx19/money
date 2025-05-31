@@ -33,7 +33,7 @@ function convertValuer() {
     }).format(inputValur) /*vai mudar o valor do <p></p> */ /*para dar certo tem que ser desse jeito para ficar na moeda br */
 
 
-    console.log(convertedValuary) /*pesquisador do input */
+    console.log(inputValur) /*pesquisador do input */
 }
 function changeEuro() {
    const primeiroparagraafo = document.querySelector(".currency-reall") /**para trocar de dolar para euro no paragrafo */
@@ -41,12 +41,12 @@ function changeEuro() {
 
    if (correncySelector.value == "dolar") {
     primeiroparagraafo.innerHTML = "Dólar Americano"
-     currencyImg.src = "../img/unidos.png";
+    currencyImg.src = "img/unidos.png"; 
    }
 
     if (correncySelector.value == "euro") { 
     primeiroparagraafo.innerHTML = "Euro"
-    currencyImg.src = "../img/euro.png";
+    currencyImg.src = "img/euro.png"; 
    }
    convertValuer()
 }
