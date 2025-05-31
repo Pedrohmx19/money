@@ -173,3 +173,23 @@ section {
   height: auto;
   object-fit: contain;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  #logo {
+    width: 60px;
+  }
+
+  section {
+    width: auto;
+    margin-top: 20px;
+  }
+}
